@@ -1,0 +1,13 @@
+
+body {
+    background-image: url(../jpg/pexels-tim-gouw-5800220.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+  }

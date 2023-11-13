@@ -1,0 +1,78 @@
+body {
+    background-image: url(../jpg/pexels-tim-gouw-5800220.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+      
+  
+}
+
+.container {
+    margin: 20px; /* Espacio para evitar que la tabla se pegue al navbar */
+    text-align: center; /* Centra el contenido horizontalmente */
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 70%; /* Ancho de la tabla */
+    margin: 20px auto; /* Centra la tabla horizontalmente y agrega margen */
+    margin-top: 7%;
+  }
+
+  .table, .table th, .table td {
+    border: 1px solid #ddd; /* Agrega bordes a la tabla, encabezados y celdas */
+    padding: 8px; /* Espaciado interno para celdas */
+  }
+
+  .table th {
+    background-color: #272727ac; /* Color de fondo para encabezados */
+  }
+
+  /* Aplica bordes redondeados a la tabla */
+  .table {
+    border-radius: 7px;
+    overflow: hidden; /* Oculta las esquinas superpuestas */
+  }
+
+  .navbar {
+    margin-top: 0;
+  }
+  
+  .navbar-no-top-margin {
+    margin-top: 0;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 0;
+       
+  }
+  
+  .navbar-nav .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+
+  /*/
+
+
+
+
+  /* Estilo para hacer el modal transparente */
+.modal-content {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+/* Estilo para centrar el modal verticalmente */
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  
+  min-height: calc(100% - 1rem);
+}
+
+
+
